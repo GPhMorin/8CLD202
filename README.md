@@ -11,15 +11,21 @@ This project aims to refactor a single-machine, single-process machine learning 
 
 ## Installation
 
-This setup was tested on Ubuntu 23.10.
+This setup was tested on Ubuntu 23.10 with Python 3.11.3 and PyTorch 2.1.1.
 
 First you need to set up a virtual Python environment in the local folder `venv`. For this project, we used Python 3.11.3.
 
 You will need to `pip install torch torchvision` in your virtual environment. For this project, we used PyTorch 2.1.1.
 
-The bash scripts run automatically the venv and install the requirements, so make sure to make them exetutable (chmod u+x script.sh) to run them (see Usage part below).
+The bash scripts run automatically the `venv` and install the requirements, so make sure to make them exetutable (`chmod u+x script.sh`) to run them (see [Usage](#usage) part below).
 
-We added Mac OS Support (for Apple Silicon Chips) : make sure to check the .sh scripts, uncomment the necessary lines and follow the instructions to make them functionnal on Mac.
+## MacOS
+
+This setup was tested on Macbook Air M2 under Sonoma 14.1.1 OS version.
+
+We added Mac OS Support (for Apple Silicon Chips).
+Make sure to open the shell scripts, uncomment the necessary lines and follow the instructions to make them functionnal on MacOS. After, you can follow the [Usage](#usage) part below.
+If you have any issues, feel free to contact @zowlak on discord.
 
 ## Usage
 
