@@ -17,7 +17,9 @@ First you need to set up a virtual Python environment in the local folder `venv`
 
 You will need to `pip install torch torchvision` in your virtual environment. For this project, we used PyTorch 2.1.1.
 
-Make sure the bash scripts (.sh) are executable.
+The bash scripts run automatically the venv and install the requirements, so make sure to make them exetutable (ch u+x script.sh) to run them (see Usage part below).
+
+We added Mac OS Support (for Apple Silicon Chips) : make sure to check the .sh scripts, uncomment the necessary lines and follow the instructions to make them functionnal on Mac.
 
 ## Usage
 
